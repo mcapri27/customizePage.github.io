@@ -309,13 +309,13 @@
 	
 	@keyframes hamburgSlideIn{
 		to{
-			left: 60%;
+			left: 20%;
 		}
 	}
 	
 	@keyframes hamburgSlideOut{
 		from{
-			left: 60%;
+			left: 20%;
 		}
 		
 		to{
@@ -376,13 +376,13 @@
 	
 	@keyframes hamburgSlideIn{
 		to{
-			left: 60%;
+			left: 20%;
 		}
 	}
 	
 	@keyframes hamburgSlideOut{
 		from{
-			left: 60%;
+			left: 20%;
 		}
 		
 		to{
