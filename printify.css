@@ -1,0 +1,828 @@
+	.headerBox{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 15vh;
+		background: white;
+		margin-top: 90vh;
+	}
+	
+	.merchHeader{
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 40px;
+		text-align: center;
+		color: black; 
+		font-weight: 800;
+		font-family: Georgia;
+	}
+	
+	.indexPageProductSection{
+		display: block;
+		position: absolute;
+		width: 100%;
+		min-height: 80vh;
+		background-image: url('file:///C:/Users/juanl/Downloads/a-repeating-pattern-of-palm-leaves-the-leaves-are--BhCKKaiTSzic4EkrbUaDZQ-j0lsZoFDTGmp65vSJvDo5Q.jpeg');
+		margin-top: 105vh;
+	}
+	
+	.indexPageProductChild{
+		display: grid;
+		grid-template-columns: 490px 490px 490px;
+		grid-template-rows: 550px 550px;  
+	}
+	
+	.indexPageProductBox{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		width: 325px;
+		height: 450px;
+		border-radius: 30px;
+		background-color: white;
+		box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.5);
+		margin: 20px 20px 20px 22.5px;
+		overflow: hidden;
+	} 
+	
+	.indexPageProductBoxName{
+		display: block;
+		position: absolute; 
+		top: 57.125%;
+		left: 50%;
+		transform: translate(-50%, 0);
+		font-size: 26px;
+	}
+	
+	.indexPageProductBoxNameLong{
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: 57.125%;
+		left: 59%;
+		transform: translate(-50%, 0);
+		font-size: 24px;
+	}
+	
+	.indexPageProductBoxNameLong2{
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: 57.125%;
+		left: 52.75%;
+		transform: translate(-50%, 0);
+		font-size: 24px;
+	}
+	
+	.indexPageProductBoxNameLong3{
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: 57.125%;
+		left: 67%;
+		transform: translate(-50%, 0);
+		font-size: 24px;
+	}
+	
+	.indexPageProductBoxNameLong4{
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: 57.125%;
+		left: 70%;
+		transform: translate(-50%, 0);
+		font-size: 24px;
+	}
+	
+	.indexPageProductBoxDescription{
+		display: block;
+		position: absolute;
+		top: 65%;
+		left: 50%;
+		transform: translate(-50%, 0);
+		width: 75%;
+		text-align: center;
+		font-size: 16px;
+		color: rgba(0, 0, 0, .7);
+	}
+	
+	.indexPageProductBoxPrice{
+		display: block;
+		position: absolute;
+		top: 72.5%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 75%;
+		text-align: center;
+		font-size: 36px;
+		font-family: Georgia;
+		color: #31642A;
+	} 
+	
+	.toCustomPage{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		width: 45%;
+		height: 10%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 20px;
+		border-radius: 30px;
+		background-color: #31642A;
+		align-items: center;
+		justify-content: center;
+		text-align: ;
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 600;
+		color: white;
+		text-decoration: none;
+		transition: all .2s;
+	}
+	
+	.toCustomPage:hover{
+		background-color: gray;
+	}
+	
+	.toastBox1Style{
+		position: fixed;
+		bottom: 30px;
+		right: -100vw;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+		padding: 10px;
+		z-index: 1000;
+		width: 25%; 
+		background: transparent;
+		animation: none;
+	}
+	
+	.toast{
+		display: flex;
+		flex-direction: column;
+		position: relative; 
+		width: 325px;
+		height: 60vh; 
+		background-color: #F1F0EC;
+		border-radius: 30px;
+		margin: 15px 0px;
+		box-shadow:  0px 5px 10px 1px rgba(49, 100, 42, .75); 
+	}
+	
+	.toast::after{
+		content: '';
+		position: absolute;
+		left: 20px;
+		bottom: 0.05px;
+		width: 80%;
+		height: 5px;
+		background: #31642A;
+		border-radius: 30px;
+		animation: slideDownTimer 7.5s linear forwards; 
+	}
+	
+	.Picture1{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 140px;
+		height: 140px;
+		border-radius: 30px;
+	}
+	
+	.atcPopupConfirmText{
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 60%;
+		height: auto;
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: #31642A;
+	}
+	
+	.ViewCartButt{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50%;
+		height: 10%;
+		border-radius: 33px;
+		background-color: #31642A;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 10px;
+		font-size: 14px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: white;
+		transition: all .3s;
+	}
+	
+	.ViewCartButt:hover{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.toastBox2Style{
+		position: fixed;
+		bottom: 30px;
+		right: -100vw;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+		padding: 10px;
+		z-index: 1000;
+		width: 25%; 
+		background: transparent;
+		animation: none;
+	}
+	
+	.toast2{
+		display: flex;
+		flex-direction: column;
+		position: relative; 
+		width: 325px;
+		height: 60vh; 
+		background-color: #F1F0EC;
+		border-radius: 30px;
+		margin: 15px 0px;
+		box-shadow:  0px 5px 10px 1px rgba(49, 100, 42, .75); 
+	}
+	
+	.toast2::after{
+		content: '';
+		position: absolute;
+		left: 20px;
+		bottom: 0.05px;
+		width: 80%;
+		height: 5px;
+		background: #31642A;
+		border-radius: 30px;
+		animation: slideDownTimer 7.5s linear forwards; 
+	}
+	
+	.Picture2{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 140px;
+		height: 140px;
+		border-radius: 30px;
+	}
+	
+	.atcPopupConfirmText2{
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 60%;
+		height: auto;
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: #31642A;
+	}
+	
+	.ViewCartButt2{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50%;
+		height: 10%;
+		border-radius: 33px;
+		background-color: #31642A;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 10px;
+		font-size: 14px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: white;
+		transition: all .3s;
+	}
+	
+	.ViewCartButt2:hover{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.toastBox3Style{
+		position: fixed;
+		bottom: 30px;
+		right: -100vw;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+		padding: 10px;
+		z-index: 1000;
+		width: 25%; 
+		background: transparent;
+		animation: none;
+	}
+	
+	.toast3{
+		display: flex;
+		flex-direction: column;
+		position: relative; 
+		width: 325px;
+		height: 60vh; 
+		background-color: #F1F0EC;
+		border-radius: 30px;
+		margin: 15px 0px;
+		box-shadow:  0px 5px 10px 1px rgba(49, 100, 42, .75); 
+	}
+	
+	.toast3::after{
+		content: '';
+		position: absolute;
+		left: 20px;
+		bottom: 0.05px;
+		width: 80%;
+		height: 5px;
+		background: #31642A;
+		border-radius: 30px;
+		animation: slideDownTimer 7.5s linear forwards; 
+	}
+	
+	.Picture3{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 140px;
+		height: 140px;
+		border-radius: 30px;
+	}
+	
+	.atcPopupConfirmText3{
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 90%;
+		height: auto;
+		font-size: 17px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: #31642A;
+	}
+	
+	.ViewCartButt3{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50%;
+		height: 10%;
+		border-radius: 33px;
+		background-color: #31642A;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 10px;
+		font-size: 14px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: white;
+		transition: all .3s;
+	}
+	
+	.ViewCartButt3:hover{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.toastBox4Style{
+		position: fixed;
+		bottom: 30px;
+		right: -100vw;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+		padding: 10px;
+		z-index: 1000;
+		width: 25%; 
+		background: transparent;
+		animation: none;
+	}
+	
+	.toast4{
+		display: flex;
+		flex-direction: column;
+		position: relative; 
+		width: 325px;
+		height: 60vh; 
+		background-color: #F1F0EC;
+		border-radius: 30px;
+		margin: 15px 0px;
+		box-shadow:  0px 5px 10px 1px rgba(49, 100, 42, .75); 
+	}
+	
+	.toast4::after{
+		content: '';
+		position: absolute;
+		left: 20px;
+		bottom: 0.05px;
+		width: 80%;
+		height: 5px;
+		background: #31642A;
+		border-radius: 30px;
+		animation: slideDownTimer 7.5s linear forwards; 
+	}
+	
+	.Picture4{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 140px;
+		height: 140px;
+		border-radius: 30px;
+	}
+	
+	.atcPopupConfirmText4{
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		height: auto;
+		font-size: 17px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: #31642A;
+	}
+	
+	.ViewCartButt4{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50%;
+		height: 10%;
+		border-radius: 33px;
+		background-color: #31642A;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 10px;
+		font-size: 14px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: white;
+		transition: all .3s;
+	}
+	
+	.ViewCartButt4:hover{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.toastBox5Style{
+		position: fixed;
+		bottom: 30px;
+		right: -100vw;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+		padding: 10px;
+		z-index: 1000;
+		width: 25%; 
+		background: transparent;
+		animation: none;
+	}
+	
+	.toast5{
+		display: flex;
+		flex-direction: column;
+		position: relative; 
+		width: 325px;
+		height: 60vh; 
+		background-color: #F1F0EC;
+		border-radius: 30px;
+		margin: 15px 0px;
+		box-shadow:  0px 5px 10px 1px rgba(49, 100, 42, .75); 
+	}
+	
+	.toast5::after{
+		content: '';
+		position: absolute;
+		left: 20px;
+		bottom: 0.05px;
+		width: 80%;
+		height: 5px;
+		background: #31642A;
+		border-radius: 30px;
+		animation: slideDownTimer 7.5s linear forwards; 
+	}
+	
+	.Picture5{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 140px;
+		height: 140px;
+		border-radius: 30px;
+	}
+	
+	.atcPopupConfirmText5{
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		height: auto;
+		font-size: 17px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: #31642A;
+	}
+	
+	.ViewCartButt5{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50%;
+		height: 10%;
+		border-radius: 33px;
+		background-color: #31642A;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 10px;
+		font-size: 14px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: white;
+		transition: all .3s;
+	}
+	
+	.ViewCartButt5:hover{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.toastBox6Style{
+		position: fixed;
+		bottom: 30px;
+		right: -100vw;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+		padding: 10px;
+		z-index: 1000;
+		width: 25%; 
+		background: transparent;
+		animation: none;
+	}
+	
+	.toast6{
+		display: flex;
+		flex-direction: column;
+		position: relative; 
+		width: 325px;
+		height: 60vh; 
+		background-color: #F1F0EC;
+		border-radius: 30px;
+		margin: 15px 0px;
+		box-shadow:  0px 5px 10px 1px rgba(49, 100, 42, .75); 
+	}
+	
+	.toast6::after{
+		content: '';
+		position: absolute;
+		left: 20px;
+		bottom: 0.05px;
+		width: 80%;
+		height: 5px;
+		background: #31642A;
+		border-radius: 30px;
+		animation: slideDownTimer 7.5s linear forwards; 
+	}
+	
+	.Picture6{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 140px;
+		height: 140px;
+		border-radius: 30px;
+	}
+	
+	.atcPopupConfirmText6{
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 35%;
+		height: auto;
+		font-size: 17px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: #31642A;
+	}
+	
+	.ViewCartButt6{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50%;
+		height: 10%;
+		border-radius: 33px;
+		background-color: #31642A;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 10px;
+		font-size: 14px;
+		font-family: Georgia;
+		font-weight: 600;
+		text-align: center;
+		color: white;
+		transition: all .3s;
+	}
+	
+	.ViewCartButt6:hover{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	@media (0 <= width <= 310px){
+		.toastBox1Style, .toastBox2Style, .toastBox3Style, .toastBox4Style, .toastBox5Style, .toastBox6Style{
+			width: 100%;
+		}
+		.Picture1{
+			
+		}
+		.atcPopupConfirmText, .atcPopupConfirmText2, .atcPopupConfirmText3, .atcPopupConfirmText4, .atcPopupConfirmText5, .atcPopupConfirmText6{
+			width: 90%;
+		} 
+	}
+	
+	@media (310px <= width <= 412px){
+		.toastBox1Style, .toastBox2Style, .toastBox3Style, .toastBox4Style, .toastBox5Style, .toastBox6Style{
+			width: 100%;
+		}
+		.toast, .toast2, .toast3, .toast4, .toast5, .toast6{
+			width: 90vw;
+		}
+		.Picture1{
+			
+		}
+		.atcPopupConfirmText, .atcPopupConfirmText2, .atcPopupConfirmText3, .atcPopupConfirmText4, .atcPopupConfirmText5, .atcPopupConfirmText6{
+			width: 90%;
+		} 
+	}
+	
+	@media (412px <= width <= 464px){
+		.toastBox1Style, .toastBox2Style, .toastBox3Style, .toastBox4Style, .toastBox5Style, .toastBox6Style{
+			width: 100%;
+		}
+		.toast, .toast2, .toast3, .toast4, .toast5, .toast6{
+			width: 90vw;
+		}
+		.Picture1{
+			
+		}
+		.atcPopupConfirmText, .atcPopupConfirmText2, .atcPopupConfirmText3, .atcPopupConfirmText4, .atcPopupConfirmText5, .atcPopupConfirmText6{
+			width: 90%;
+		} 
+	}
+	
+	@media (464px <= width <= 873px){
+		.toastBox1Style, .toastBox2Style, .toastBox3Style, .toastBox4Style, .toastBox5Style, .toastBox6Style{
+			width: 50%;
+		}
+		.toast, .toast2, .toast3, .toast4, .toast5, .toast6{
+			width: 40vw;
+		}
+		.Picture1{
+			
+		}
+		.atcPopupConfirmText, .atcPopupConfirmText2, .atcPopupConfirmText3, .atcPopupConfirmText4, .atcPopupConfirmText5, .atcPopupConfirmText6{
+			width: 50%;
+		} 
+	}
+	
+	@media (873px <= width <= 1115px){
+		.toastBox1Style, .toastBox2Style, .toastBox3Style, .toastBox4Style, .toastBox5Style, .toastBox6Style{
+			width: 30%;
+		}
+		.toast, .toast2, .toast3, .toast4, .toast5, .toast6{
+			width: 95%;
+		}
+		.Picture1{
+			
+		}
+		.atcPopupConfirmText, .atcPopupConfirmText2, .atcPopupConfirmText3, .atcPopupConfirmText4, .atcPopupConfirmText5, .atcPopupConfirmText6{
+			width: 50%;
+		} 
+	} 
+	
+	@media (1115px <= width <= 1356px){
+		.toastBox1Style, .toastBox2Style, .toastBox3Style, .toastBox4Style, .toastBox5Style, .toastBox6Style{
+			width: 30%;
+		}
+		.toast, .toast2, .toast3, .toast4, .toast5, .toast6{
+			width: 95%;
+		}
+		.atcPopupConfirmText, .atcPopupConfirmText2, .atcPopupConfirmText3, .atcPopupConfirmText4, .atcPopupConfirmText5, .atcPopupConfirmText6{
+			width: 50%;
+		} 
+	} 
+	
+	@media (1356px <= width <= 1536px){
+		.toastBox1Style, .toastBox2Style, .toastBox3Style, .toastBox4Style, .toastBox5Style, .toastBox6Style{
+			width: 30%;
+		}
+		.toast, .toast2, .toast3, .toast4, .toast5, .toast6{
+			width: 95%;
+		} 
+		.atcPopupConfirmText, .atcPopupConfirmText2, .atcPopupConfirmText3, .atcPopupConfirmText4, .atcPopupConfirmText5, .atcPopupConfirmText6{
+			width: 50%;
+		} 
+	} 

@@ -1,0 +1,1061 @@
+	.navbar{
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+		background-color: #F1F0EC;
+		padding: 30px;
+		margin-top: 0vh; 
+		overflow: hidden;
+		list-style-type: none;
+		width: 100%;
+		height: 15vh;
+		align-items: center; 
+	} 
+	
+	.navText{
+		text-align: center;
+		padding: 10px;
+		text-decoration: none; 
+		color: black; 
+		margin: 30px;
+		font-size: 20px;
+		border-radius: 12px; 
+	}
+		
+	.navText:hover{
+		background-color: #A2ED69;
+		font-size: 20.5px;
+		transition: 0.7s; 
+	} 
+		
+	.profpic{
+		display: block;
+		position: absolute;
+		bottom: 20%;
+	}
+		
+	.title{
+		display: inline-block; 
+		position: absolute;
+		margin-top: 0px;
+		font-family: Georgia; 
+		text-decoration: none;
+		padding-left: 70px; 
+		font-size: 25px;
+		align-items: center;
+		justify-content: center; 
+		letter-spacing: 5px; 
+		color: black; 
+	} 
+	
+	.pageState{
+		display: flex;
+		flex-direction: row;
+		position: absolute; 
+		width: 80%;
+		height: auto;
+		margin: 0.8em 1.2em; 
+	}
+	
+	.pageStateLabel{
+		font-size: 20px;
+		font-family: Georgia;
+		color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.slasher{
+		font-size: 30px;
+		font-family: Times New Roman;
+		font-weight: 700;
+		color: rgba(0, 0, 0, 0.5);
+		margin: -0.2em 5px;
+	}
+	
+	.generalMerch{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		width: 100%;
+		min-height: 100vh;
+		margin-top: 15vh; 
+	}
+	
+	.productCustomizeParent{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		max-width: 1536px;
+ 		margin-left: auto;
+  		margin-right: auto;
+  		padding-left: 0.5rem;
+  		padding-right: 0.5rem;
+		width: 90vw;
+		min-width: 90vw;
+		min-height: 80vh;
+		background-color: #F1F0EC; 
+		margin-inline: auto;
+		margin-top: 1.5em;
+		margin-bottom: 3.25em;
+		border-radius: 33px;
+		overflow: hidden;
+		box-shadow: 1px 1px 15px 2px rgba(255, 255, 255, 0.5);
+	}
+	
+	.productCustomizeChildGrid{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct1{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct2{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct3{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct4{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct5{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct6{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildImage{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 100%; 
+	}
+	
+	.mugProductPic1{
+		display: block;
+		position: relative;
+		width: 95%;
+		height: 95%;
+		top: 47.75%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-bottom-left-radius: 30px;
+	}
+	
+	.mugProductPic2{
+		display:block;
+		position:relative;
+		width:95%;
+		height:95%;
+		top:47.75%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		border-bottom-left-radius: 30px;
+	}
+	
+	.mugProductPic3{
+		display:block;
+		position:relative;
+		width:95%;
+		height:95%;
+		top:47.75%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		border-bottom-left-radius: 30px;
+	}
+	
+	.mugProductPic4{
+		display:block;
+		position:relative;
+		width:95%;
+		height:95%;
+		top:47.75%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		border-bottom-left-radius: 30px;
+	}
+	
+	.mugProductPic5{
+		display:block;
+		position:relative;
+		width:95%;
+		height:95%;
+		top:47.75%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		border-bottom-left-radius: 30px;
+	}
+	
+	.mugProductPic6{
+		display:block;
+		position:relative;
+		width:95%;
+		height:95%;
+		top:47.75%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		border-bottom-left-radius: 30px;
+	}
+	
+	.productCustomizeDescriptionTextSection{
+		display: flex;
+		flex-direction: column; 
+		position: relative;
+		min-width: auto;
+		max-width: 90vw;
+		min-height: auto; 
+		overflow: hidden;
+		align-items: center;
+		overflow-y: scroll;
+	}
+	
+	.productCustomizeDescriptionTextSection::-webkit-scrollbar{
+		width: 15px;
+		background-color: transparent;
+		border-radius: 10px;
+	}
+
+
+	.productCustomizeDescriptionTextSection::-webkit-scrollbar-track{
+		width: 15px;
+		height: 20px;
+		background-color: #F1F0EC;
+		border-radius: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.productCustomizeDescriptionTextSection::-webkit-scrollbar-thumb{  
+		background-image: linear-gradient(135deg,#F1F0EC,#BEFF4E,#80FF6E );
+		border-radius: 10px;
+	}
+	
+	.productCustomizeDescriptionTextHeader{
+		font-size: 22px;
+		font-family: Georgia;
+		font-weight: 500;
+		color: black;
+		text-align: center;
+	}
+	
+	.productCustomizeDescriptionText{
+		font-size: 18px;
+		font-family: Georgia; 
+		color: rgba(0, 0, 0, 0.75);
+		letter-spacing: 1.25px;
+		margin-bottom: 0.125em;
+		text-align: center;
+		padding: 5px;
+	}
+	
+	.productCustomizeDescriptionTextSection ul{
+		margin: 0.125em 1.225em;
+		font-size: 18px;
+		font-family: Georgia; 
+		color: rgba(0, 0, 0, 0.75);
+		letter-spacing: 1.125px;
+		text-align: center;
+		list-style-type: none;
+	}
+	
+	.productCustomizeDescriptionTextProductHeader{
+		font-size: 30px;
+		font-family: "Aboreto", system-ui;
+		font-weight: 500;
+		font-style: normal;
+		color: black;
+		letter-spacing: 1.125px;
+		margin-bottom: 0.125em; 
+		text-align: center;
+	}
+	
+	.customizeVariationBox{
+		display: block;
+		position: relative;  
+		max-width: 1536px;
+		width: 40%;
+		margin-top: 0.2em; 
+		border-radius: 30px;
+		box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.5);
+	}
+	
+	.customizeVariationGrid{
+		display: grid;
+		grid-template-columns: 75% 25%;
+		grid-template-rows: 7.5vh;
+	}
+	
+	.customModelVariationText{
+		display: flex;
+		flex-direction: row;
+		position: relative; 
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+		font-size: 15px;
+		font-family: "Aboreto", system-ui;
+		font-weight: 500;
+		font-style: normal;
+		color: black;
+		letter-spacing: 1.125px; 
+		background: white;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.customModelVariationButton{
+		display: flex;
+		flex-direction: row;
+		position: relative; 
+		border-top-right-radius: 30px;
+		border-bottom-right-radius: 30px; 
+		background: white;
+		align-items: center;
+		justify-content: center;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		transition: all .3s;
+	}
+	
+	.customizeVariationBox a{
+		text-decoration: none;
+	}
+	
+	.bxs-down-arrow{
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 18px;
+		font-family: "Aboreto", system-ui;
+		font-weight: 500;
+		font-style: normal;
+		color: black; 
+	}
+	
+	.customModelVariationButton:hover{
+		transform: scale(1.1);
+	}
+	
+	.bxl-discord-alt{
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 40px;
+	}
+	
+	.PrevButtClass{
+		display: block;
+		position: absolute;
+		top: 45%;
+		left: 5%;
+		transform: translate(-50%, -50%);
+	}
+	
+	.PrevButtClass label{
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 47.5%;
+		transform: translate(-50%,-50%);
+		padding: 10px 11px;
+		border: 1.5px solid #31642A;
+		border-radius: 99px;
+		color: #31642A;
+		background-color: white;
+		cursor:pointer;
+		transition: all .3s;
+	}
+	
+	.PrevButtClass label:hover{
+		background-color: rgba(49, 100, 42, 0.5);
+	}
+	
+	.nextButtClass{
+		display: block;
+		position: absolute;
+		top: 45%;
+		left: 95%;
+		transform: translate(-50%, -50%); 
+	}
+	
+	.nextButtClass label{
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 47.5%;
+		transform: translate(-50%,-50%);
+		padding: 10px 11px;
+		border: 1.5px solid #31642A;
+		border-radius: 99px;
+		color: #31642A;
+		background-color: white;
+		cursor:pointer;
+		transition: all .75s;
+	}
+	
+	.nextButtClass label:hover{
+		background-color: rgba(49, 100, 42, 0.5);
+	}
+	
+	.hamburgButtStyle{
+		display: flex;
+		flex-direction: row;
+		position: relative; 
+		left: 95%;
+		width: 60px;
+		height: 60px;
+		outline: none;
+		cursor: pointer;
+		background: transparent;
+		border: none;
+	}
+	
+	.hamburgButtStyle label{
+		display: block;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 46px; 
+		cursor: pointer;
+	}
+	
+	.navHamburg{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		width: 100%;
+		left: 100%;
+		top: 40%; 
+		transform: translate(-150%, 0%);
+	}
+	
+	.navHamburgLinks{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		top: 80%;
+		left: 50%;
+		font-size: 1.125rem;
+		font-family: Georgia;
+		text-align: center;
+		padding: 0px 0px 20px 0px;
+		width: 100%;
+		color: rgba(0, 0, 0, 0.75);
+		cursor: pointer;
+		text-decoration: none;
+	}
+	
+	.accountPageCats{
+		display: flex;
+		flex-direction: row;
+		position: fixed; 
+		width: 25%;
+		top: 15vh;
+		left: 100%;
+		height: 85vh;
+		background-color: white; 
+		z-index: 1000;
+		overflow: hidden;
+		box-shadow: 4px 1px 15px 2px rgba(0, 0, 0, 0.5);  
+	}
+	
+	.accountPageCats ul{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		width: 100%;
+		height: 85vh; 
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		justify-content: center;
+		align-items: center;
+	} 
+	
+	.accountSubCats{
+		display: flex;
+		flex-direction: column;
+		position: relative; 
+		left: 50%;
+		font-size: 1.125rem;
+		font-family: Georgia;
+		text-align: center;
+		padding: 0px 0px 20px 0px;
+		width: 100%;
+		color: rgba(0, 0, 0, 0.75);
+		cursor: pointer;
+		text-decoration: none;
+	}
+	
+	.accountPageCats a:hover{
+		color: #BEFF4E;
+	} 
+	
+	.Dele{
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+		width: 90%;
+		top: 100%; 
+		border-radius: 30px;
+		padding: 10px;
+		background-image: repeating-linear-gradient(135deg,#36872B,#BEFF4E,#80FF6E);
+		background-size: 300%; 
+		transition: all .3s;
+		cursor: pointer;
+		box-shadow: 4px 1px 5px 2px rgba(0, 0, 0, 0.5);
+		border: none;
+	}
+	
+	.Dele label{
+		font-size: 1.063rem;
+		font-family: Georgia; 
+		cursor: pointer;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		transition: all .3s;
+	}
+	
+	.Dele:hover{
+		animation: image1 0.75s ease-in-out both;
+	}
+	
+	.Dele label:hover{
+		color: red;
+	}
+	
+	.Loguit{
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+		width: 90%;
+		top: 110%;
+		border: none;
+		border-radius: 30px;
+		padding: 10px;
+		background-image: repeating-linear-gradient(135deg,#36872B,#BEFF4E,#80FF6E);
+		background-size: 300%; 
+		transition: all .3s;
+		cursor: pointer;
+		box-shadow: 4px 1px 5px 2px rgba(0, 0, 0, 0.5);
+	}
+	
+	.Loguit:hover{
+		animation: image1 0.75s ease-in-out both;
+	}
+	
+	.Loguit label:hover{
+		color: red;
+	}
+	
+	.LoguitText{
+		font-size: 1.125rem;
+		font-family: Georgia; 
+		cursor: pointer;
+		text-align: center;
+		justify-content: center;
+		align-items: center; 
+		transition: all .3s;
+		
+	} 
+	
+	.blurry{
+		display: none;
+		position: fixed;
+		top: 15vh;
+		width: 100%;
+		height: 85vh;
+		background: rgba(0, 0, 0, 0.25);
+		backdrop-filter: blur(2px); 
+		opacity: 0;
+		animation: none;
+	}
+	
+	.closeMenuButton{
+		display: block;
+		position: relative;
+		top: 7.5%;
+		left: 100%;
+		transform: translate(-50%, -50%);
+		width: 40px;
+		height: 40px;
+		border: none;
+		outline: none;
+		background: transparent;
+		font-size: 30px;
+		font-weight: 600;
+		font-family: Georgia;
+		color: black;
+		cursor: pointer;
+	}
+	
+	.bx-x{
+		display: block;
+		position: position;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 30px; 
+		font-family: Georgia;
+		color: black;
+	}
+	
+	@media (0 <= width <= 310px){
+		.title{
+			display: none;
+		}
+		.profpic{
+			left: 50%;
+			transform: translate(-50%, 0);
+		}
+		.hamburgButtStyle{
+			left: 85%;
+		}
+		.accountPageCats{
+			width: 100%;
+		}
+		.pageState{
+			width: 95%;
+			margin: 0.5em 0;
+			justify-content: center;
+			align-items: center;
+		}
+		.pageStateLabel, .slasher{
+			font-size: 15px;
+		}
+		.mugProductPic1, .mugProductPic2, .mugProductPic3, .mugProductPic4, .mugProductPic5, .mugProductPic6{
+			height: 80%;
+			width: 85%;
+			border-radius: 30px;
+		}
+		.PrevButtClass{
+			top: 47.5%;
+			left: 5%;
+		}
+		.nextButtClass{
+			top: 47.5%;
+			left: 95%;
+		}
+		.productCustomizeParent{
+			width: 95%;
+		}
+		.productCustomizeChildImage{
+			width: 100%;
+			height: 100%;
+		}
+		.customizeVariationBox{
+			width: 60%;
+		}
+		.productCustomizeChildGridProduct1{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 85vh; 
+		}
+		.productCustomizeChildGridProduct2{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 80%; 
+		}
+		.productCustomizeChildGridProduct3{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 75%; 
+		}
+		.productCustomizeChildGridProduct4{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 110vh; 
+		}
+		.productCustomizeChildGridProduct5{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 105vh; 
+		}
+		.productCustomizeChildGridProduct6{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 75vh; 
+		}
+	}
+	
+	@media (310px <= width <= 412px){
+		.title{
+			display: none;
+		}
+		.profpic{
+			left: 50%;
+			transform: translate(-50%, 0);
+		}
+		.hamburgButtStyle{
+			left: 85%;
+		}
+		.accountPageCats{
+			width: 50%;
+		}
+		.pageState{
+			width: 95%;
+			margin: 0.5em 0;
+			justify-content: center;
+			align-items: center;
+		}
+		.pageStateLabel, .slasher{
+			font-size: 15px;
+		}
+		.mugProductPic1, .mugProductPic2, .mugProductPic3, .mugProductPic4, .mugProductPic5, .mugProductPic6{
+			height: 80%;
+			width: 85%;
+			border-radius: 30px;
+		}
+		.PrevButtClass{
+			top: 47.5%;
+			left: 5%;
+		}
+		.nextButtClass{
+			top: 47.5%;
+			left: 95%;
+		}
+		.productCustomizeParent{
+			width: 95%;
+		}
+		.productCustomizeChildImage{
+			width: 100%;
+			height: 100%;
+		}
+		.customizeVariationBox{
+			width: 60%;
+		}
+		.productCustomizeChildGridProduct1{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 65vh; 
+		}
+		.productCustomizeChildGridProduct2{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 80%; 
+		}
+		.productCustomizeChildGridProduct3{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 80%; 
+		}
+		.productCustomizeChildGridProduct4{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 90vh; 
+		}
+		.productCustomizeChildGridProduct5{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 80vh; 
+		}
+		.productCustomizeChildGridProduct6{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 60vh; 
+		}
+	}
+	
+	@media (412px <= width <= 464px){
+		.title{
+			display: none;
+		}
+		.profpic{
+			left: 50%;
+			transform: translate(-50%, 0);
+		}
+		.hamburgButtStyle{
+			left: 85%;
+		}
+		.accountPageCats{
+			width: 40%;
+		}
+		.pageState{
+			width: 95%;
+			margin: 0.5em 0;
+			justify-content: center;
+			align-items: center;
+		}
+		.pageStateLabel, .slasher{
+			font-size: 15px;
+		}
+		.mugProductPic1, .mugProductPic2, .mugProductPic3, .mugProductPic4, .mugProductPic5, .mugProductPic6{
+			height: 80%;
+			width: 85%;
+			border-radius: 30px;
+		}
+		.PrevButtClass{
+			top: 47.5%;
+			left: 5%;
+		}
+		.nextButtClass{
+			top: 47.5%;
+			left: 95%;
+		}
+		.productCustomizeParent{
+			width: 95%;
+		}
+		.productCustomizeChildImage{
+			width: 100%;
+			height: 100%;
+		}
+		.customizeVariationBox{
+			width: 60%;
+		}
+		.productCustomizeChildGridProduct1{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 60vh; 
+		}
+		.productCustomizeChildGridProduct2{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 100vh; 
+		}
+		.productCustomizeChildGridProduct3{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 116.25vh; 
+		}
+		.productCustomizeChildGridProduct4{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 85vh; 
+		}
+		.productCustomizeChildGridProduct5{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 75vh; 
+		}
+		.productCustomizeChildGridProduct6{
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: 50vh 55vh; 
+		}
+	}
+	
+	@media ( 464px <= width <= 873px){
+		
+		.accountPageCats{
+			width: 40%;
+		}
+		.PrevButtClass{
+			top: 47.5%;
+			left: 5%;
+		}
+		.nextButtClass{
+			top: 47.5%;
+			left: 95%;
+		}
+		.pageStateLabel{
+			font-size: 17px;
+		}
+		.mugProductPic1, .mugProductPic2, .mugProductPic3, .mugProductPic4, .mugProductPic5, .mugProductPic6{
+			width: 100%;
+			height: 95%;
+			top: 52.5%;
+		}
+		.productCustomizeDescriptionTextSection {
+			top: 3.5%;
+			overflow-y: scroll;
+		} 
+		.customizeVariationBox{
+			width: 60%;
+		}
+	}
+	
+	@media ( 873px <= width <= 939px){
+		.accountPageCats{
+			width: 40%;
+		}
+		.PrevButtClass{
+			top: 47.5%;
+			left: 5%;
+		}
+		.nextButtClass{
+			top: 47.5%;
+			left: 95%;
+		}
+		.pageStateLabel{
+			font-size: 17px;
+		}
+		.productCustomizeChildGridProduct1{
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct2{
+		display: grid;
+		grid-template-columns: 70% 30%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct3{
+		display: grid;
+		grid-template-columns: 70% 30%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct4{
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct5{
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct6{
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+		.mugProductPic1, .mugProductPic2, .mugProductPic3, .mugProductPic4, .mugProductPic5, .mugProductPic6{
+			width: 100%;
+			height: 97.5%;
+			top: 50%;
+		}
+		.productCustomizeDescriptionTextSection {
+			top: 2%;
+			overflow-y: scroll;
+		} 
+		.customizeVariationBox{
+			width: 80%;
+		}
+		.customModelVariationText{
+			font-size: 12px;
+		}
+	}
+	
+	@media ( 939px <= width <= 1115px){
+		.accountPageCats{
+			width: 40%;
+		}
+		.PrevButtClass{
+			top: 47.5%;
+			left: 5%;
+		}
+		.nextButtClass{
+			top: 47.5%;
+			left: 95%;
+		}
+		.pageStateLabel{
+			font-size: 17px;
+		}
+		.productCustomizeChildGridProduct1{
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct2{
+		display: grid;
+		grid-template-columns: 70% 30%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct3{
+		display: grid;
+		grid-template-columns: 70% 30%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct4{
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct5{
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+	
+	.productCustomizeChildGridProduct6{
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: 75vh;
+		margin-top: 3.5%; 
+	}
+		.mugProductPic1, .mugProductPic2, .mugProductPic3, .mugProductPic4, .mugProductPic5, .mugProductPic6{
+			width: 100%;
+			height: 97.5%;
+			top: 50%;
+		}
+		.productCustomizeDescriptionTextSection {
+			top: 2%;
+			overflow-y: scroll; 
+		} 
+		.customizeVariationBox{
+			width: 80%;
+		}
+		.customModelVariationText{
+			font-size: 12px;
+		}
+	}
+	
+	@media (1115px <= width <= 1356px) and (1356px <= width <= 1536px){
+		.hamburgButtStyle{
+			left: 95%;
+		}
+		.accountPageCats{
+			width: 25%;
+		}
+		.PrevButtClass{
+			top: 47.5%;
+			left: 5%;
+		}
+		.nextButtClass{
+			top: 47.5%;
+			left: 95%;
+		} 
+	}

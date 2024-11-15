@@ -1,0 +1,603 @@
+@keyframes fadeIn{
+	from{
+	opacity: 0;
+	}
+	
+	to{
+	opacity: 1;
+	}
+}
+
+@keyframes fadeOut{
+	from{
+	opacity: 1;
+	}
+	
+	to{
+	opacity: 0;
+	}
+}
+
+@keyframes CSScrollReveal{
+		from {
+		opacity: 0;
+		transform: translateX(100px);
+		}
+		
+		to{
+		opacity: 1;
+		transform: translateX(0);
+		}
+	}
+	
+	@keyframes CSScrollReveal1{
+		from {
+		opacity: 0;
+		transform: translateX(-100px);
+		}
+		
+		to{
+		opacity: 1;
+		transform: translateX(0);
+		}
+	}
+	
+	@keyframes blurin{
+		from{
+		opacity: 0;
+		}
+		
+		to{
+		opacity: 1;
+		}
+	}
+	
+	@keyframes bubbles{
+		0%{
+		background-position: 0 50%;
+		}
+		
+		50%{
+		background-position: 100% 50%;
+		}
+		
+		100%{
+		background-position: 0 50%;
+		}
+	}
+	
+	@keyframes fadeSlide1{  
+		to{
+			transform: translate(-200%, -50%);
+		}
+	}
+	
+	@keyframes fadeSlide2{  
+		to{
+			transform: translate(-160%, -50%);
+		}
+	}
+	
+	@keyframes fadeSlideIn{  
+		to{
+			transform: translateX(0vw);
+		}
+	}
+	
+	@keyframes fadeSlideOut{  
+		from{
+			transform: translateX(0vw);
+		}
+		to{
+			transform: translateX(-20vw);
+		}
+	}
+	
+	@keyframes fadeSlide3{  
+		to{
+			transform: translate(-50%, -50%);
+		}
+	}
+	
+	@keyframes fadeSlideOut1{
+		to{
+			transform: translate(-300%, -50%);
+		}
+	}
+	
+	@keyframes fadeSlide3{  
+		to{
+			
+			transform: translate(-260%, -50%);
+		
+		}
+	}
+	
+	@keyframes fadeInThenOut{
+		0%, 100%{
+			opacity: 0;
+			right: -10vh;
+		}
+		
+		50%{
+			opacity: 1;
+			right: 15px;
+		} 
+	}
+
+	@media (0 <= width <= 310px){
+		@keyframes scaleToSpiral{
+		0%{
+			width: 80%;
+		}
+		
+		25%{
+			width: 60%;
+		}
+		
+		50%{
+			width: 40%;
+			opacity: 0.75;
+		}
+		
+		75%{
+			width: 20%;
+			opacity: 0.50;
+		}
+		
+		100%{
+			width: 0%;
+			opacity: 0;
+		}
+	}
+	
+	@keyframes PopupSlideInFromRight{
+		from{
+			right: -100vw;
+		}
+		
+		to{
+			left: 0%;
+		}
+		}
+		
+		@keyframes slideDownTimer{
+		to{
+			width: 0;
+		}
+	}
+	
+	@keyframes PopupSlideOutFromViewRight{
+		from{
+			right: 0%;
+		}
+		
+		to{
+			right: -100vh;
+		}
+	}
+	
+	@keyframes hamburgSlideIn{
+		to{
+			left: 0%;
+		}
+	}
+	
+	@keyframes hamburgSlideOut{
+		from{
+			left: 0%;
+		}
+		
+		to{
+			left: 100%;
+		}
+	} 
+	}
+	
+	@media (310px <= width <= 412px){
+		@keyframes scaleToSpiral{
+		0%{
+			width: 80%;
+		}
+		
+		25%{
+			width: 60%;
+		}
+		
+		50%{
+			width: 40%;
+			opacity: 0.75;
+		}
+		
+		75%{
+			width: 20%;
+			opacity: 0.50;
+		}
+		
+		100%{
+			width: 0%;
+			opacity: 0;
+		}
+	}
+	
+	@keyframes PopupSlideInFromRight{
+		to{
+			right: 0%;
+		}
+		}
+		
+		@keyframes slideDownTimer{
+		to{
+			width: 0;
+		}
+	}
+	
+	@keyframes PopupSlideOutFromViewRight{
+		from{
+			right: 0%;
+		}
+		
+		to{
+			right: -100vh;
+		}
+	}
+	
+	@keyframes hamburgSlideIn{
+		to{
+			left: 50%;
+		}
+	}
+	
+	@keyframes hamburgSlideOut{
+		from{
+			left: 50%;
+		}
+		
+		to{
+			left: 100%;
+		}
+	} 
+	}
+	
+	@media (412px <= width <= 464px){
+		@keyframes scaleToSpiral{
+		0%{
+			width: 80%;
+		}
+		
+		25%{
+			width: 60%;
+		}
+		
+		50%{
+			width: 40%;
+			opacity: 0.75;
+		}
+		
+		75%{
+			width: 20%;
+			opacity: 0.50;
+		}
+		
+		100%{
+			width: 0%;
+			opacity: 0;
+		}
+	}
+	
+	@keyframes PopupSlideInFromRight{
+		to{
+			right: 0%;
+		}
+		}
+		
+		@keyframes slideDownTimer{
+		to{
+			width: 0;
+		}
+	}
+	
+	@keyframes PopupSlideOutFromViewRight{
+		from{
+			right: 0%;
+		}
+		
+		to{
+			right: -100vh;
+		}
+	}
+	
+	@keyframes hamburgSlideIn{
+		to{
+			left: 60%;
+		}
+	}
+	
+	@keyframes hamburgSlideOut{
+		from{
+			left: 60%;
+		}
+		
+		to{
+			left: 100%;
+		}
+	} 
+	}
+	
+	@media (464px <= width <= 873px){
+		@keyframes scaleToSpiral{
+		0%{
+			width: 80%;
+		}
+		
+		25%{
+			width: 60%;
+		}
+		
+		50%{
+			width: 40%;
+			opacity: 0.75;
+		}
+		
+		75%{
+			width: 20%;
+			opacity: 0.50;
+		}
+		
+		100%{
+			width: 0%;
+			opacity: 0;
+		}
+	}
+	
+	@keyframes PopupSlideInFromRight{
+		to{
+			right: 0%;
+		}
+		}
+		
+		@keyframes slideDownTimer{
+		to{
+			width: 0;
+		}
+	}
+	
+	@keyframes PopupSlideOutFromViewRight{
+		from{
+			right: 0%;
+		}
+		
+		to{
+			right: -100vh;
+		}
+	}
+	
+	
+	
+	@keyframes hamburgSlideIn{
+		to{
+			left: 60%;
+		}
+	}
+	
+	@keyframes hamburgSlideOut{
+		from{
+			left: 60%;
+		}
+		
+		to{
+			left: 100%;
+		}
+	}
+	}
+	
+	@media (873px <= width <= 1115px){
+		@keyframes scaleToSpiral{
+		0%{
+			width: 80%;
+		}
+		
+		25%{
+			width: 60%;
+		}
+		
+		50%{
+			width: 40%;
+			opacity: 0.75;
+		}
+		
+		75%{
+			width: 20%;
+			opacity: 0.50;
+		}
+		
+		100%{
+			width: 0%;
+			opacity: 0;
+		}
+	}
+	
+	@keyframes PopupSlideInFromRight{
+		to{
+			right: 0%;
+		}
+		}
+		
+		@keyframes slideDownTimer{
+		to{
+			width: 0;
+		}
+	}
+	
+	@keyframes PopupSlideOutFromViewRight{
+		from{
+			right: 0%;
+		}
+		
+		to{
+			right: -100vh;
+		}
+	}
+	
+	
+	
+	@keyframes hamburgSlideIn{
+		to{
+			left: 75%;
+		}
+	}
+	
+	@keyframes hamburgSlideOut{
+		from{
+			left: 75%;
+		}
+		
+		to{
+			left: 100%;
+		}
+	}
+	}  
+	
+	@media (1115px <= width <= 1356px) and (1356px <= width <= 1536px){
+		@keyframes scaleToSpiral{
+		0%{
+			width: 80%;
+		}
+		
+		25%{
+			width: 60%;
+		}
+		
+		50%{
+			width: 40%;
+			opacity: 0.75;
+		}
+		
+		75%{
+			width: 20%;
+			opacity: 0.50;
+		}
+		
+		100%{
+			width: 0%;
+			opacity: 0;
+		}
+	}
+	
+	@keyframes PopupSlideInFromRight{
+		to{
+			right: 0%;
+		}
+		}
+		
+		@keyframes slideDownTimer{
+		to{
+			width: 0;
+		}
+	}
+	
+	@keyframes PopupSlideOutFromViewRight{
+		from{
+			right: 0%;
+		}
+		
+		to{
+			right: -100vh;
+		}
+	}
+	
+	
+	
+	@keyframes hamburgSlideIn{
+		to{
+			left: 75%;
+		}
+	}
+	
+	@keyframes hamburgSlideOut{
+		from{
+			left: 75%;
+		}
+		
+		to{
+			left: 100%;
+		}
+	}
+	}
+	
+	@keyframes hamburgSlideIn{
+		to{
+			left: 75%;
+		}
+	}
+	
+	@keyframes hamburgSlideOut{
+		from{
+			left: 75%;
+		}
+		
+		to{
+			left: 100%;
+		}
+	}
+	
+	@keyframes scaleToSpiral{
+		0%{
+			width: 40%;
+		}
+		
+		25%{
+			width: 30%;
+		}
+		
+		50%{
+			width: 20%;
+			opacity: 0.75;
+		}
+		
+		75%{
+			width: 10%;
+			opacity: 0.50;
+		}
+		
+		100%{
+			width: 0%;
+			opacity: 0;
+		}
+	}
+	
+	@keyframes PopupSlideInFromRight{
+		to{
+			right: 0%;
+		}
+		}
+		
+		@keyframes slideDownTimer{
+		to{
+			width: 0;
+		}
+	}
+	
+	@keyframes PopupSlideOutFromViewRight{
+		from{
+			right: 0%;
+		}
+		
+		to{
+			right: -100vh;
+		}
+	}
+	
+	@keyframes image1{
+		0%{
+		background-position: 0 50%;
+		}
+		
+		50%{
+		background-position: 100% 50%;
+		}
+		
+		100%{
+		background-position: 0 50%;
+		}
+	}

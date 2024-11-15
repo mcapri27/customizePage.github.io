@@ -1,0 +1,598 @@
+	.addToTheCart1{
+		display: flex; 
+		position: absolute;
+		width: 40%; 
+		bottom: 5%;  
+		padding: 10px 20px;	
+		margin-top: 60px;
+		margin-inline: auto;
+		align-items: center;
+		justify-content: center;
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	
+	
+	.addToTheCart1:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	} 
+	
+	.addToTheCart1Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+		opacity: 1;
+		animation: none;
+	} 
+	
+	.addToTheCart2{
+		display: flex; 
+		position: relative;
+		width: 40%; 
+		bottom: 10%;  
+		padding: 10px 20px;	
+		margin-top: 60px; 
+		align-items: center;
+		justify-content: center;
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart2:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart2Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart3{
+		display: flex; 
+		position: relative;
+		width: 40%; 
+		bottom: 10%;  
+		padding: 10px 20px;	
+		margin-top: 60px; 
+		align-items: center;
+		justify-content: center;
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart3:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart3Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart4{
+		display: flex; 
+		position: absolute;
+		width: 40%; 
+		bottom: 5%;  
+		padding: 10px 20px;	
+		margin-top: 60px; 
+		align-items: center;
+		justify-content: center;
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart4:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart4Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart5{
+		display: flex; 
+		position: absolute;
+		width: 40%; 
+		bottom: 5%;  
+		padding: 10px 20px;	
+		margin-top: 60px; 
+		align-items: center;
+		justify-content: center;
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart5:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart5Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart6{
+		display: flex; 
+		position: absolute;
+		width: 40%; 
+		bottom: 5%;  
+		padding: 10px 20px;	
+		margin-top: 60px; 
+		align-items: center;
+		justify-content: center;
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart6:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart6Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart7{
+		display: block;
+		position: absolute;
+		width: 25%;
+		height: 7.5%;
+		top: 93.25%;
+		left: 85%;
+		transform: translate(-50%, -50%);
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart7:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart7Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart8{
+		display: block;
+		position: absolute;
+		width: 25%;
+		height: 7.5%;
+		top: 93.25%;
+		left: 85%;
+		transform: translate(-50%, -50%);
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart8:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart8Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart9{
+		display: block;
+		position: absolute;
+		width: 25%;
+		height: 7.5%;
+		top: 93.25%;
+		left: 85%;
+		transform: translate(-50%, -50%);
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart9:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart9Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart10{
+		display: block;
+		position: absolute;
+		width: 80%;
+		height: 7.5%;
+		top: 93.25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart10:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart10Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart11{
+		display: block;
+		position: absolute;
+		width: 80%;
+		height: 7.5%;
+		top: 93.25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart11:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart11Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.addToTheCart12{
+		display: block;
+		position: absolute;
+		width: 80%;
+		height: 7.5%;
+		top: 93.25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border: none;
+		border-radius: 30px;
+		background-color: #31642A;
+		cursor: pointer;
+		transition: all 0.75s;
+	}
+	
+	.addToTheCart12:hover{
+		transform: scale(1.01), translate(-80%, -80%);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	
+	.addToTheCart12Label{
+		font-size: 20px;
+		font-family: Georgia;
+		font-weight: 500;
+		cursor: pointer;
+		color: white;
+	} 
+	
+	.check{
+		display: none;
+		position: absolute; 
+		bottom: 5%;
+		font-size: 75px;
+		font-family: Georgia;
+		font-weight: 600;
+		color: #31642A;
+		margin-inline: auto;
+		align-items: center;
+		justify-content: center;
+		animation: none;
+		opacity: 0;
+		pointer-events: none;
+	}
+	
+	.check2{
+		display: none;
+		position: relative; 
+		top: 5%;
+		font-size: 75px;
+		font-family: Georgia;
+		font-weight: 600;
+		color: #31642A;
+		margin-inline: auto;
+		align-items: center;
+		justify-content: center;
+		animation: none;
+		opacity: 0;
+		pointer-events: none;
+	}
+	
+	.check3{
+		display: none;
+		position: relative; 
+		top: 5%;
+		font-size: 75px;
+		font-family: Georgia;
+		font-weight: 600;
+		color: #31642A;
+		margin-inline: auto;
+		align-items: center;
+		justify-content: center;
+		animation: none;
+		opacity: 0;
+		pointer-events: none;
+	}
+	
+	.check4{
+		display: none;
+		position: relative; 
+		top: 5%;
+		font-size: 75px;
+		font-family: Georgia;
+		font-weight: 600;
+		color: #31642A;
+		margin-inline: auto;
+		align-items: center;
+		justify-content: center;
+		animation: none;
+		opacity: 0;
+		pointer-events: none;
+	}
+	
+	.check5{
+		display: none;
+		position: absolute; 
+		bottom: 5%;
+		font-size: 75px;
+		font-family: Georgia;
+		font-weight: 600;
+		color: #31642A;
+		margin-inline: auto;
+		align-items: center;
+		justify-content: center;
+		animation: none;
+		opacity: 0;
+		pointer-events: none;
+	}
+	
+	.check6{
+		display: none;
+		position: absolute; 
+		bottom: 5%;
+		font-size: 75px;
+		font-family: Georgia;
+		font-weight: 600;
+		color: #31642A;
+		margin-inline: auto;
+		align-items: center;
+		justify-content: center;
+		animation: none;
+		opacity: 0;
+		pointer-events: none;
+	}
+	
+	.variationBox1{
+		display: flex;
+		flex-direction: column;
+		position: absolute;  
+		top: 105%;
+		height: 250%;
+		width: 100%;
+		background: white;
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+		box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.5);
+		overflow-y: scroll;
+	}
+	
+	.variationBox1::-webkit-scrollbar{
+	width: 15px;
+	background-color: transparent;
+	border-radius: 10px;
+	
+	}
+
+
+	.variationBox1::-webkit-scrollbar-track{
+	width: 15px;
+	height: 20px;
+	background-color: #F1F0EC;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;  
+	}
+
+	.variationBox1::-webkit-scrollbar-thumb{  
+	background-image: linear-gradient(135deg,#F1F0EC,#BEFF4E,#80FF6E ); 
+	border-radius: 10px;
+	}
+	
+	.variationBoxContent1{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: 100%;
+		height: 12.5%;
+		
+	}
+	
+	.variationBoxContentHolder{
+		
+	}
+	
+	@media (0 <= width <= 310px){
+		.addToTheCart1, .addToTheCart2, .addToTheCart3, .addToTheCart4, .addToTheCart5, .addToTheCart6{
+			width: 80%;
+			position: relative;
+			margin-top: 1.5em;
+		} 
+		.addToTheCart2{
+			margin-top: 80%;
+		}
+		.addToTheCart3{
+			margin-top: 60%;
+		}
+		.addToTheCart4{
+			margin-top: 3em;
+		}
+		.addToTheCart6{
+			margin-top: 3em;
+		}
+	}
+	
+	@media (310px <= width <= 412px){
+		.addToTheCart1, .addToTheCart2, .addToTheCart3, .addToTheCart4, .addToTheCart5, .addToTheCart6{
+			width: 80%;
+			position: relative;
+			margin-top: 1.5em;
+		} 
+		.addToTheCart2{
+			margin-top: 40%;
+		}
+		.addToTheCart3{
+			margin-top: 40%;
+		}
+		.addToTheCart4{
+			margin-top: 3em;
+		}
+	}
+	
+	@media (412px <= width <= 464px){
+		.addToTheCart1, .addToTheCart2, .addToTheCart3, .addToTheCart4, .addToTheCart5, .addToTheCart6{
+			width: 80%;
+			position: relative;
+			margin-top: 1.5em;
+		} 
+		.addToTheCart2{
+			margin-top: 6em;
+		}
+		.addToTheCart3{
+			margin-top: 6em;
+		}
+		.addToTheCart4{
+			margin-top: 3em;
+		}
+	}
+	
+	@media (464px <= width <= 873px){
+		.addToTheCart1, .addToTheCart2, .addToTheCart3, .addToTheCart4, .addToTheCart5, .addToTheCart6{
+			width: 80%;
+			position: relative;
+			margin-top: 1.5em;
+		}
+		.addToTheCart2{
+			margin-top: 6em;
+		}
+		.addToTheCart3{
+			margin-top: 6em;
+		}
+		.addToTheCart4{
+			margin-top: 3em;
+		}
+	}
+	
+	@media (873px <= width <= 939px){
+		.addToTheCart1, .addToTheCart2, .addToTheCart3, .addToTheCart4, .addToTheCart5, .addToTheCart6{
+			width: 80%;
+			position: relative;
+			margin-top: 3em;
+		} 
+		.addToTheCart2{
+			margin-top: 6em;
+		}
+		.addToTheCart3{
+			margin-top: 6em;
+		} 
+		.addToTheCart5{
+			margin-top: 1.5em;
+		}
+	}
+	
+	@media (939px <= width <= 1115px){
+		.addToTheCart1, .addToTheCart2, .addToTheCart3, .addToTheCart4, .addToTheCart5, .addToTheCart6{
+			width: 80%;
+			position: relative;
+			margin-top: 3em;
+		} 
+		.addToTheCart2{
+			margin-top: 6em;
+		}
+		.addToTheCart3{
+			margin-top: 6em;
+		} 
+		.addToTheCart5{
+			margin-top: 1.5em;
+		}
+	}
+	
+	
