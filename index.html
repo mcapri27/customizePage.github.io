@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="C:\docs\Professor Yard\Webfiles\Gradient Animation.css" as="style">
+	<link rel="stylesheet" href="C:\docs\Professor Yard\dashboard-footer.css" as="style">
+	<link rel="stylesheet" href="C:\docs\Professor Yard\testimonial.css" as="style">
+	<link rel="stylesheet" href="C:\Bullzerian\Stylesheets\Fade-Animations.css" as="style"> 
+	<link rel="stylesheet" href="C:\docs\Professor Yard\customizeMerchPageStyle.css" as="style">
+	<link rel="stylesheet" href="C:\Bullzerian\Stylesheets\Custom-Scrollbar.css" as="style">
+	<link rel="stylesheet" href="C:\docs\Professor Yard\testimonialMediaBox.css" as="style">
+	<link rel="stylesheet" href="C:\docs\Professor Yard\printify.css" as="style">
+	<link rel="stylesheet" href="C:\docs\Professor Yard\addToCartStyle.css" as="style"> 
+	<title>Professor Yard</title>
+	<link rel="icon" href="file:///C:/Users/juanl/Downloads/WhatsApp_Image_2024-08-06_at_21.04.23_03e6556f-removebg-preview.png" type="image/x-icon"/>
+
+<style>
+
+	@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+	
+	body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	min-width: auto;
+	max-width: 1366px;
+	height: auto;
+	overflow-x: hidden;  
+	background-image: url("file:///C:/Users/juanl/Downloads/Juan_Lyonne_birds-eye-view_of_rich,_healthy_and_green_grass._S_e81d04a6-223f-4913-820f-1752411b37ad.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	} 
+	
+	:root{
+		font-size: 16px;
+	} 
+</style>
+<body>
+	
+	<div class="navbar">
+		<a href="C:\docs\Professor Yard\index.html"><img class="profpic" src="file:///C:/Users/juanl/Downloads/WhatsApp_Image_2024-08-06_at_21.04.23_03e6556f-removebg-preview.png" style="width:60px;height:60px;"/></a>
+		
+		<a href="C:\docs\Professor Yard\index.html" class="title">Professor Yard.</a> 
+		
+		<button class="hamburgButtStyle" id="hamburgButt"><label for="hamburgButt"><i class='bx bx-menu'></i></label></button>
+		
+	</div>
+	
+		<div class="accountPageCats">
+			<ul> 
+			<div class="navHamburg">
+				<a class="navHamburgLinks" href="">HOME</a>
+				<a class="navHamburgLinks" href="">DASHBOARD</a>
+				<a class="navHamburgLinks" href="">CART</a>
+					<a href="C:\docs\Professor Yard\personalInfo.html" class="accountSubCats" style="color: #BEFF4E! important;">Merchandise</a> 
+					<!--<a href="C:\docs\Professor Yard\clientRecords.html" class="accountSubCats"></a>-->
+				<a class="navHamburgLinks" href="">ACCOUNT</a>
+			</div> 
+			<button class="Dele" id="DelAcc">
+			<label for="DelAcc">
+			Delete Account
+			<i class='bx bxs-trash' style="display:inline-block;position:absolute;left:80%;font-size:20px;"></i>
+			</label>
+			</button>
+			<button class="Loguit">
+				<label for="">
+				<i class='bx bx-log-out' style="display:inline-block;position:absolute;left:80%;font-size:20px;;"></i>
+				<p class="LoguitText">
+					Log Out
+				</p> 
+				</label>
+			</button>
+			</ul> 
+			
+			<button class="closeMenuButton" id="closeButtonMenu"><i class='bx bx-x'></i></button>
+			
+		</div> 
+	
+<div class="generalMerch">  
+	<div class="productCustomizeParent">
+		<div class="pageState">
+			<span class="pageStateLabel">Merchandise</span>
+			<span class="slasher">/</span>
+			<span class="pageStateLabel" id="">Mug, 110z</span> 
+		</div>
+		
+		<div class="productCustomizeChildGridProduct1">
+			<div class="productCustomizeChildImage">
+				<img src="file:///C:/docs/Professor%20Yard/Context3.png" class="mugProductPic1" />
+				<div class="PrevButtClass">
+					<button id="leftButt" hidden></button>
+					<label for="leftButt" onclick="prev()"><i class='bx bxs-left-arrow' ></i></label>
+				</div>
+				<div class="nextButtClass">
+					<button id="rightButt" hidden></button>
+					<label for="rightButt" onclick="next()"><i class='bx bxs-right-arrow'></i></label>
+				</div>
+			</div>
+			
+			<div class="productCustomizeDescriptionTextSection">
+				<span class="productCustomizeDescriptionTextProductHeader">Mug, 11oz</span>
+				<span class="productCustomizeDescriptionTextHeader">Description:</span>
+				<p class="productCustomizeDescriptionText">
+				Stir some personality into a freshly-brewed cup of joe.<br>
+				This mug is sturdy and durable, with a C-shaped handle so <i>you</i> can hold on tight when that caffeine finally hits.
+				</p>
+				<br/>
+				<span class="productCustomizeDescriptionTextHeader">Specifications:</span>
+				<ul>
+					<li>
+					One size: 11oz (0.33 l)
+					</li>
+					<li>
+					Durable white ceramic material with a glossy finish
+					</li>
+					<li>
+					C-shaped easy-grip handle
+					</li> 
+				</ul>
+				<br/> 
+				<!--<div class="customizeVariationBox">
+					<span class="customModelVariationText">White</span>
+					<button id="variationClick1" class="customModelVariationButton"><i class='bx bxs-down-arrow'></i></button> 
+					<div class="variationBox1" id="variationBox01">
+						<button class="variationBoxContentHolder" id=""></button>
+						<button class="variationBoxContentHolder" id=""></button>
+						<button class="variationBoxContentHolder" id=""></button> 
+					</div>
+				</div>-->
+				
+				<span class="check"><i class='bx bx-check'></i></span> 
+				<button class="addToTheCart1" id="addToTheCartButt1"><label class="addToTheCart1Label" for="addToTheCartButt1">Add To Cart</label></button> 
+			</div>
+		</div> 
+	</div>
+	
+	<div class="productCustomizeParent">
+		<div class="pageState">
+			<span class="pageStateLabel">Merchandise</span>
+			<span class="slasher">/</span>
+			<span class="pageStateLabel" id="">Tough Cases</span> 
+		</div>
+		
+		<div class="productCustomizeChildGridProduct2">
+			<div class="productCustomizeChildImage">
+				<img src="file:///C:/docs/Professor%20Yard/Context.png" class="mugProductPic2"/>
+				<div class="PrevButtClass">
+					<button id="leftButt" hidden></button>
+					<label for="leftButt" onclick="prev2()"><i class='bx bxs-left-arrow' ></i></label>
+				</div>
+				<div class="nextButtClass">
+					<button id="rightButt" hidden></button>
+					<label for="rightButt" onclick="next2()"><i class='bx bxs-right-arrow'></i></label>
+				</div>
+			</div>
+			
+			<div class="productCustomizeDescriptionTextSection">
+				<span class="productCustomizeDescriptionTextProductHeader">Tough Cases</span>
+				<span class="productCustomizeDescriptionTextHeader">Description:</span>
+				<p class="productCustomizeDescriptionText">
+				Personalize your iPhone, Samsung Galaxy, and Google Pixel devices with premium-quality custom protective phone cases.
+				Every case has double layers for extra durability and protection while the clear, open ports stay out of your way when it comes to charging.
+				The outer polycarbonate shell will resist daily impacts.
+				</p>
+				<span class="productCustomizeDescriptionTextHeader">Specifications:</span>
+				<ul>
+					<li>
+					Custom protective phone cases made with 100% polycarbonate (shell), 100% TPU (lining)
+					</li>
+					<li>
+					Dual layer case for extra durability and protection
+					</li>
+					<li>
+					Supports wireless charging (not including MagSafe)
+					</li>
+					<li>
+					All custom protective phone cases come in a matte finish
+					</li>
+					<li>
+					Clear, open ports for connectivity
+					</li>
+					<li>
+					Sourced from Korea
+					</li>
+				</ul>
+				<div class="customizeVariationBox">
+					<div class="customizeVariationGrid">
+					<span id="" class="customModelVariationText">Vote for Model</span>
+					<a href="" class="customModelVariationButton"><i class='bx bxl-discord-alt'></i></a>
+					</div>
+				</div>
+				<!--<div class="customizeVariationBox">
+					<span id="" class="customModelVariationText">Iphone 15</span>
+					<button class="customModelVariationButton"><i class='bx bxs-down-arrow'></i></button> 
+				</div>-->
+				
+				<span class="check2"><i class='bx bx-check'></i></span> 
+				<button class="addToTheCart2" id="addToTheCartButt2"><label class="addToTheCart2Label" for="addToTheCartButt2">Add To Cart</label></button> 
+			</div>
+		</div> 
+	</div>
+	
+	<div class="productCustomizeParent">
+		<div class="pageState">
+			<span class="pageStateLabel">Merchandise</span>
+			<span class="slasher">/</span>
+			<span class="pageStateLabel" id="">Skinny Tumbler with Straw</span> 
+		</div>
+		
+		<div class="productCustomizeChildGridProduct3">
+			<div class="productCustomizeChildImage">
+				<img src="file:///C:/docs/Professor%20Yard/TumblerContext%202.png" class="mugProductPic3" />
+				<div class="PrevButtClass">
+					<button id="leftButt" hidden></button>
+					<label for="leftButt" onclick="prev3()"><i class='bx bxs-left-arrow' ></i></label>
+				</div>
+				<div class="nextButtClass">
+					<button id="rightButt" hidden></button>
+					<label for="rightButt" onclick="next3()"><i class='bx bxs-right-arrow'></i></label>
+				</div>
+			</div>
+			
+			<div class="productCustomizeDescriptionTextSection">
+				<span class="productCustomizeDescriptionTextProductHeader">Skinny Tumbler with Straw</span>
+				<span class="productCustomizeDescriptionTextHeader">Description:</span>
+				<p class="productCustomizeDescriptionText">
+				This <i>WHITE</i> personalized skinny tumbler keeps your drinks hot for 12h and cold for 24h, making it the perfect sipping companion all year round.
+				With 20oz capacity, this tumbler comes in a matte finish, and features a tapered shape with a slim design for effortless carriage.
+				The plastic press-on lid with color-matching straw makes for great practicality on the go, while all components are BPA-free and non-toxic;
+				aka perfect for the whole family.
+				</p>
+				<br/>
+				<span class="productCustomizeDescriptionTextHeader">Specifications:</span>
+				<ul>
+					<li>
+					Materials: stainless steel, plastic
+					</li>
+					<li>
+					One size: 20oz (0.6l)
+					</li>
+					<li>
+					Plastic press-on lid with color-matching straw
+					</li> 
+					<li>
+					Available in matte or glossy powder-coated finish
+					</li>
+					<li>
+					Tapered shape and slim, double-wall design
+					</li>
+					<li>
+					Keeps drinks cold for 24 hours and hot - for 12 hours
+					</li> 
+					<li>
+					Non-toxic and BPA-free
+					</li> 
+					<li>
+					sourced from China
+					</li>
+					<li>
+					NB! Hand wash only
+					</li> 
+				</ul> 
+				
+				<span class="check3"><i class='bx bx-check'></i></span>
+				<button class="addToTheCart3" id="addToTheCartButt3"><label class="addToTheCart3Label" for="addToTheCartButt3">Add To Cart</label></button> 
+			</div>
+		</div> 
+	</div>
+	
+	<div class="productCustomizeParent">
+		<div class="pageState">
+			<span class="pageStateLabel">Merchandise</span>
+			<span class="slasher">/</span>
+			<span class="pageStateLabel" id="">Heavy Duty Floor Mat</span> 
+		</div>
+		
+		<div class="productCustomizeChildGridProduct4">
+			<div class="productCustomizeChildImage">
+				<img src="file:///C:/docs/Professor%20Yard/FernFloorMatContext%202.png" class="mugProductPic4" />
+				<div class="PrevButtClass">
+					<button id="leftButt" hidden></button>
+					<label for="leftButt" onclick="prev4()"><i class='bx bxs-left-arrow' ></i></label>
+				</div>
+				<div class="nextButtClass">
+					<button id="rightButt" hidden></button>
+					<label for="rightButt" onclick="next4()"><i class='bx bxs-right-arrow'></i></label>
+				</div>
+			</div>
+			
+			<div class="productCustomizeDescriptionTextSection">
+				<span class="productCustomizeDescriptionTextProductHeader">Heavy Duty Floor Mat</span>
+				<span class="productCustomizeDescriptionTextHeader">Description:</span>
+				<p class="productCustomizeDescriptionText"> 
+				Here to add a touch of character into any home for a long time to come, this heavy duty custom floor mat is a stunning piece of home decor.
+				Made with 100% polyester, each mat features a non-slip backing for keeping your steps safe.
+				Your designs are printed in vivid detail from edge to edge.
+				</p>
+				<br/>
+				<span class="productCustomizeDescriptionTextHeader">Specifications:</span>
+				<ul>
+					<li>
+					48inch by 72inch
+					</li>
+					<li>
+					Material: 100% polyester
+					</li>
+					<li>
+					Black trim
+					</li>
+					<li>
+					Non-slip rubber backing
+					</li> 
+					<li>
+					One sided print
+					</li>
+					<li>
+					Assembled in the USA from globally sourced parts
+					</li>
+				</ul> 
+				
+				<span class="check4"><i class='bx bx-check'></i></span>
+				<button class="addToTheCart4" id="addToTheCartButt4"><label class="addToTheCart4Label" for="addToTheCartButt4">Add To Cart</label></button> 
+			</div>
+		</div> 
+	</div>
+	
+	<div class="productCustomizeParent">
+		<div class="pageState">
+			<span class="pageStateLabel">Merchandise</span>
+			<span class="slasher">/</span>
+			<span class="pageStateLabel" id="">Mango Coconut Scented Candle</span> 
+		</div>
+		
+		<div class="productCustomizeChildGridProduct5">
+			<div class="productCustomizeChildImage">
+				<img src="file:///C:/docs/Professor%20Yard/MCcCandleContext%201.png" class="mugProductPic5"  />
+				<div class="PrevButtClass">
+					<button id="leftButt" hidden></button>
+					<label for="leftButt" onclick="prev5()"><i class='bx bxs-left-arrow' ></i></label>
+				</div>
+				<div class="nextButtClass">
+					<button id="rightButt" hidden></button>
+					<label for="rightButt" onclick="next5()"><i class='bx bxs-right-arrow'></i></label>
+				</div>
+			</div>
+			
+			<div class="productCustomizeDescriptionTextSection">
+				<span class="productCustomizeDescriptionTextProductHeader">Mango Coconut Scented Candle</span>
+				<span class="productCustomizeDescriptionTextHeader">Description:</span>
+				<p class="productCustomizeDescriptionText">
+				4oz candle hand-poured in the USA, and made from premium coconut mango wax with cotton wicks that are lead and zinc-free.<br>
+				20hrs burn-time.
+				</p>
+				<br/>
+				<span class="productCustomizeDescriptionTextHeader">Specifications:</span>
+				<ul>
+					<li>
+					Materials: coconut mango wax, cotton wick
+					</li>
+					<li>
+					Lid color: gold
+					</li>
+					<li>
+					Vessel color: clear
+					</li> 
+					<li>
+					Burn time: up to 20 hours
+					</li>
+					<li>
+					Assembled in the USA from globally sourced parts
+					</li> 
+				</ul>
+				<br/>
+				<!--<div class="customizeVariationBox">
+					<span class="customModelVariationText">Clear Bottle</span>
+					<button id="variationClick" class="customModelVariationButton"><i class='bx bxs-down-arrow'></i></button> 
+				</div>-->
+				
+				<span class="check5"><i class='bx bx-check'></i></span>
+				<button class="addToTheCart5" id="addToTheCartButt5"><label class="addToTheCart5Label" for="addToTheCartButt5">Add To Cart</label></button> 
+			</div>
+		</div> 
+	</div>
+	
+	<div class="productCustomizeParent">
+		<div class="pageState">
+			<span class="pageStateLabel">Merchandise</span>
+			<span class="slasher">/</span>
+			<span class="pageStateLabel" id="">Acrylic Wall Clock</span> 
+		</div>
+		
+		<div class="productCustomizeChildGridProduct6">
+			<div class="productCustomizeChildImage">
+				<img src="file:///C:/docs/Professor%20Yard/ClockClose-up.png" class="mugProductPic6" />
+				<div class="PrevButtClass">
+					<button id="leftButt" hidden></button>
+					<label for="leftButt" onclick="prev6()"><i class='bx bxs-left-arrow' ></i></label>
+				</div>
+				<div class="nextButtClass">
+					<button id="rightButt" hidden></button>
+					<label for="rightButt" onclick="next6()"><i class='bx bxs-right-arrow'></i></label>
+				</div>
+			</div>
+			
+			<div class="productCustomizeDescriptionTextSection">
+				<span class="productCustomizeDescriptionTextProductHeader">Acrylic Wall Clock</span>
+				<span class="productCustomizeDescriptionTextHeader">Description:</span>
+				<p class="productCustomizeDescriptionText">
+				
+				Made from an acrylic material that looks like glass but is more durable and sturdy.
+				</p>
+				<br/>
+				<span class="productCustomizeDescriptionTextHeader">Specifications:</span>
+				<ul>
+					<li>
+					8inch by 8inch
+					</li>
+					<li>
+					Material: 100% acrylic
+					</li>
+					<li>
+					Requires one AA battery (NOT included)
+					</li> 
+					<li>
+					Includes keyhole hanging slot
+					</li>
+				</ul>
+				
+				<span class="check6"><i class='bx bx-check'></i></span>
+				<button class="addToTheCart6" id="addToTheCartButt6"><label class="addToTheCart6Label" for="addToTheCartButt6">Add To Cart</label></button> 
+			</div>
+		</div> 
+	</div> 
+</div>
+
+	<div id="toastBox1" class="toastBox1Style"></div>  
+	<div id="toastBox2" class="toastBox2Style"></div> 
+	<div id="toastBox3" class="toastBox3Style"></div>
+	<div id="toastBox4" class="toastBox4Style"></div>
+	<div id="toastBox5" class="toastBox5Style"></div>
+	<div id="toastBox6" class="toastBox6Style"></div>
+	
+	<div class="blurry"></div>
+	
+	<script src="C:\docs\Professor Yard\addToCartClickAnimation.js"></script>
+	<script src="C:\docs\Professor Yard\printifyImageFunctionality.js"></script>
+	<script src="C:\docs\Professor Yard\hamburgFunctionality.js"></script> 
+</body>
+</html>
