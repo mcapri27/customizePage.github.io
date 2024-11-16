@@ -638,8 +638,8 @@
 			display: none;
 		}
 		.profpic{
-			width: 120px;
-			height: 120px;
+			width: 80px;
+			height: 80px;
 			left: 50%;
 			transform: translate(-50%, 0);
 		}
@@ -826,13 +826,13 @@
 			display: none;
 		}
 		.profpic{
-			width: 120px;
-			height: 120px;
+			width: 100px;
+			height: 100px;
 			left: 50%;
 			transform: translate(-50%, 0);
 		}
 		.hamburgButtStyle{
-			left: 20%;
+			left: 85%;
 		}
 		.accountPageCats{
 			width: 80%;
