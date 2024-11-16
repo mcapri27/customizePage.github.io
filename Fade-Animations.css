@@ -179,13 +179,13 @@
 	
 	@keyframes hamburgSlideIn{
 		to{
-			left: 0%;
+			right: 100%;
 		}
 	}
 	
 	@keyframes hamburgSlideOut{
 		from{
-			left: 0%;
+			right: 100%;
 		}
 		
 		to{
@@ -244,13 +244,13 @@
 	
 	@keyframes hamburgSlideIn{
 		to{
-			left: 20%;
+			right: 80%;
 		}
 	}
 	
 	@keyframes hamburgSlideOut{
 		from{
-			left: 20%;
+			right: 80%;
 		}
 		
 		to{
@@ -309,13 +309,13 @@
 	
 	@keyframes hamburgSlideIn{
 		to{
-			left: 20%;
+			rightt: 80%;
 		}
 	}
 	
 	@keyframes hamburgSlideOut{
 		from{
-			left: 20%;
+			right: 80%;
 		}
 		
 		to{
@@ -376,13 +376,13 @@
 	
 	@keyframes hamburgSlideIn{
 		to{
-			left: 20%;
+			right: 80%;
 		}
 	}
 	
 	@keyframes hamburgSlideOut{
 		from{
-			left: 20%;
+			right: 80%;
 		}
 		
 		to{
@@ -443,13 +443,13 @@
 	
 	@keyframes hamburgSlideIn{
 		to{
-			left: 75%;
+			right: 25%;
 		}
 	}
 	
 	@keyframes hamburgSlideOut{
 		from{
-			left: 75%;
+			right: 75%;
 		}
 		
 		to{
@@ -484,7 +484,7 @@
 		}
 	}
 	
-	/*@keyframes PopupSlideInFromRight{
+	@keyframes PopupSlideInFromRight{
 		to{
 			right: 0%;
 		}
@@ -510,13 +510,13 @@
 	
 	@keyframes hamburgSlideIn{
 		to{
-			left: 75%;
+			right: 25%;
 		}
 	}
 	
 	@keyframes hamburgSlideOut{
 		from{
-			left: 75%;
+			right: 25%;
 		}
 		
 		to{
@@ -525,7 +525,7 @@
 	}
 	}
 	
-	@keyframes hamburgSlideIn{
+	/*@keyframes hamburgSlideIn{
 		to{
 			left: 75%;
 		}
