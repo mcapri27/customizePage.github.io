@@ -484,7 +484,7 @@
 		}
 	}
 	
-	@keyframes PopupSlideInFromRight{
+	/*@keyframes PopupSlideInFromRight{
 		to{
 			right: 0%;
 		}
@@ -586,7 +586,7 @@
 		to{
 			right: -100vh;
 		}
-	}
+	}*/
 	
 	@keyframes image1{
 		0%{
