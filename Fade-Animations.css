@@ -244,13 +244,13 @@
 	
 	@keyframes hamburgSlideIn{
 		to{
-			left: 50%;
+			left: 20%;
 		}
 	}
 	
 	@keyframes hamburgSlideOut{
 		from{
-			left: 50%;
+			left: 20%;
 		}
 		
 		to{
