@@ -638,8 +638,6 @@
 			display: none;
 		}
 		.profpic{
-			width: 80px;
-			height: 80px;
 			left: 50%;
 			transform: translate(-50%, 0);
 		}
@@ -732,8 +730,8 @@
 			display: none;
 		}
 		.profpic{
-			width: 120px;
-			height: 120px;
+			width: 70px;
+			height: 70px;
 			left: 50%;
 			transform: translate(-50%, 0);
 		}
@@ -826,8 +824,8 @@
 			display: none;
 		}
 		.profpic{
-			width: 100px;
-			height: 100px;
+			width: 70px;
+			height: 70px;
 			left: 50%;
 			transform: translate(-50%, 0);
 		}
