@@ -121,7 +121,7 @@
 		const toast = document.createElement('div');
 		toast.classList.add('toast');
 		const productPicture1 = document.createElement('img');
-		productPicture1.src = "file:///C:/docs/Professor%20Yard/Context3.png";
+		productPicture1.src = "printifyImages/Context3.png";
 		productPicture1.classList.add('Picture1');
 		const atcConfirmText = document.createElement('span');
 		atcConfirmText.innerHTML = "'White Mug' has been added to cart";
@@ -154,7 +154,7 @@
 		const toast2 = document.createElement('div');
 		toast2.classList.add('toast2');
 		const productPicture2 = document.createElement('img');
-		productPicture2.src = "file:///C:/docs/Professor%20Yard/Context.png";
+		productPicture2.src = "printifyImages/Context.png";
 		productPicture2.classList.add('Picture2');
 		const atcConfirmText2 = document.createElement('span');
 		atcConfirmText2.innerHTML = "'Tough Case' has been added to cart";
@@ -187,7 +187,7 @@
 		const toast3 = document.createElement('div');
 		toast3.classList.add('toast3');
 		const productPicture3 = document.createElement('img');
-		productPicture3.src = "file:///C:/docs/Professor%20Yard/TumblerContext%202.png";
+		productPicture3.src = "printifyImages/TumblerContext 2.png";
 		productPicture3.classList.add('Picture3');
 		const atcConfirmText3 = document.createElement('span');
 		atcConfirmText3.innerHTML = "'Skinny Tumbler With Straw' has been added to cart";
@@ -221,7 +221,7 @@
 		const toast4 = document.createElement('div');
 		toast4.classList.add('toast4');
 		const productPicture4 = document.createElement('img');
-		productPicture4.src = "file:///C:/docs/Professor%20Yard/FernFloorMatContext%202.png";
+		productPicture4.src = "printifyImages/FernFloorMatContext 2.png";
 		productPicture4.classList.add('Picture4');
 		const atcConfirmText4 = document.createElement('span');
 		atcConfirmText4.innerHTML = "'Heavy Duty Floor Mat' has been added to cart";
@@ -254,7 +254,7 @@
 		const toast5 = document.createElement('div');
 		toast5.classList.add('toast5');
 		const productPicture5 = document.createElement('img');
-		productPicture5.src = "file:///C:/docs/Professor%20Yard/MCcCandleContext%201.png";
+		productPicture5.src = "printifyImages/MCcCandleContext 1.png";
 		productPicture5.classList.add('Picture5');
 		const atcConfirmText5 = document.createElement('span');
 		atcConfirmText5.innerHTML = "'Mango Coconut Scented Candle' has been added to cart";
@@ -287,7 +287,7 @@
 		const toast6 = document.createElement('div');
 		toast6.classList.add('toast6');
 		const productPicture6 = document.createElement('img');
-		productPicture6.src = "file:///C:/docs/Professor%20Yard/ClockClose-up.png";
+		productPicture6.src = "printifyImages/ClockClose-up.png";
 		productPicture6.classList.add('Picture6');
 		const atcConfirmText6 = document.createElement('span');
 		atcConfirmText6.innerHTML = "'Acrylic Wall Clock' has been added to cart";
