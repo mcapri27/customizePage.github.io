@@ -817,6 +817,9 @@
 		.productCustomizeDescriptionTextProductHeader{
 		padding-left: 15px;
 		}
+		.customizeVariationBox{
+		margin-bottom: 0.2em;
+		}
 	}
 	
 	@media (412px <= width <= 464px){
@@ -911,6 +914,9 @@
 		.productCustomizeDescriptionTextProductHeader{
 		padding-left: 15px;
 		}
+		.customizeVariationBox{
+		margin-bottom: 0.2em;
+		}
 	}
 	
 	@media ( 464px <= width <= 873px){
@@ -939,7 +945,8 @@
 			overflow-y: scroll;
 		} 
 		.customizeVariationBox{
-			width: 60%;
+			width: 80%;
+			margin-bottom: 0.2em;
 		}
 	}
 	
