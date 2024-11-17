@@ -1,3 +1,7 @@
+	.addToTheCart1:focus, .addToTheCart2:focus, .addToTheCart3:focus, .addToTheCart4:focus, .addToTheCart5:focus, .addToTheCart6:focus{
+		outline: none;
+	}
+
 	.addToTheCart1{
 		display: flex; 
 		position: absolute;
