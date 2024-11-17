@@ -147,6 +147,6 @@
 	}
 	
 	function setImg6(){
-		return slider_img6.setAttribute("src", "printifyImages" + images6[i]);
+		return slider_img6.setAttribute("src", "printifyImages/" + images6[i]);
 	}
 	
