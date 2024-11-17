@@ -234,10 +234,9 @@
 		min-height: auto; 
 		overflow: hidden;
 		align-items: center;
-		overflow-y: scroll;
 	}
 	
-	.productCustomizeDescriptionTextSection::-webkit-scrollbar{
+	/*.productCustomizeDescriptionTextSection::-webkit-scrollbar{
 		width: 15px;
 		background-color: transparent;
 		border-radius: 10px;
@@ -256,7 +255,7 @@
 	.productCustomizeDescriptionTextSection::-webkit-scrollbar-thumb{  
 		background-image: linear-gradient(135deg,#F1F0EC,#BEFF4E,#80FF6E );
 		border-radius: 10px;
-	}
+	}*/
 	
 	.productCustomizeDescriptionTextHeader{
 		font-size: 22px;
@@ -702,32 +701,32 @@
 		.productCustomizeChildGridProduct1{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 85vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct2{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 80%; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct3{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 75%; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct4{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 110vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct5{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 105vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct6{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 75vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeDescriptionTextHeader{
 		padding-left: 15px;
@@ -768,7 +767,7 @@
 			align-items: center;
 		}
 		.pageStateLabel, .slasher{
-			font-size: 12px;
+			font-size: 11px;
 		}
 		.mugProductPic1, .mugProductPic2, .mugProductPic3, .mugProductPic4, .mugProductPic5, .mugProductPic6{
 			height: 80%;
@@ -801,27 +800,27 @@
 		.productCustomizeChildGridProduct2{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 80%; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct3{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 80%; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct4{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 90vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct5{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 80vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct6{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 60vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeDescriptionTextHeader{
 		padding-left: 15px;
@@ -868,7 +867,7 @@
 			align-items: center;
 		}
 		.pageStateLabel, .slasher{
-			font-size: 12px;
+			font-size: 11px;
 		}
 		.mugProductPic1, .mugProductPic2, .mugProductPic3, .mugProductPic4, .mugProductPic5, .mugProductPic6{
 			height: 80%;
@@ -901,27 +900,27 @@
 		.productCustomizeChildGridProduct2{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct3{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 116.25vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct4{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 85vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct5{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 75vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeChildGridProduct6{
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		grid-template-rows: 50vh 55vh; 
+		grid-template-rows: 50vh minmax(1fr, 2fr); 
 		}
 		.productCustomizeDescriptionTextHeader{
 		padding-left: 15px;
@@ -954,7 +953,7 @@
 			align-items: center;
 		}
 		.pageStateLabel, .slasher{
-			font-size: 15px;
+			font-size: 12px;
 		}
 		.accountPageCats{
 			width: 40%;
