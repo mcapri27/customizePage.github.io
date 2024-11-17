@@ -529,6 +529,9 @@
 		.addToTheCart4{
 			margin-top: 3em;
 		}
+		.addToTheCart6{
+			margin-top: 3em;
+		}
 	}
 	
 	@media (412px <= width <= 464px){
@@ -544,6 +547,9 @@
 			margin-top: 6em;
 		}
 		.addToTheCart4{
+			margin-top: 6em;
+		}
+		.addToTheCart6{
 			margin-top: 6em;
 		}
 	}
