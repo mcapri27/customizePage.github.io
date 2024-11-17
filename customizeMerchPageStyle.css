@@ -947,7 +947,15 @@
 	}
 	
 	@media ( 464px <= width <= 873px){
-		
+		.pageState{
+			width: 95%;
+			margin: 0.5em 0;
+			justify-content: center;
+			align-items: center;
+		}
+		.pageStateLabel, .slasher{
+			font-size: 15px;
+		}
 		.accountPageCats{
 			width: 40%;
 		}
@@ -960,7 +968,7 @@
 			left: 95%;
 		}
 		.pageStateLabel{
-			font-size: 17px;
+			font-size: 15px;
 		}
 		.mugProductPic1, .mugProductPic2, .mugProductPic3, .mugProductPic4, .mugProductPic5, .mugProductPic6{
 			width: 100%;
