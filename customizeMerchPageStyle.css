@@ -236,7 +236,7 @@
 		align-items: center;
 	}
 	
-	/*.productCustomizeDescriptionTextSection::-webkit-scrollbar{
+	.productCustomizeDescriptionTextSection::-webkit-scrollbar{
 		width: 15px;
 		background-color: transparent;
 		border-radius: 10px;
@@ -255,7 +255,7 @@
 	.productCustomizeDescriptionTextSection::-webkit-scrollbar-thumb{  
 		background-image: linear-gradient(135deg,#F1F0EC,#BEFF4E,#80FF6E );
 		border-radius: 10px;
-	}*/
+	}
 	
 	.productCustomizeDescriptionTextHeader{
 		font-size: 22px;
@@ -690,6 +690,7 @@
 		}
 		.productCustomizeParent{
 			width: 95%;
+			padding-bottom: 2.5px;
 		}
 		.productCustomizeChildImage{
 			width: 100%;
@@ -784,6 +785,7 @@
 		}
 		.productCustomizeParent{
 			width: 95%;
+			padding-bottom: 2.5px;
 		}
 		.productCustomizeChildImage{
 			width: 100%;
@@ -884,6 +886,7 @@
 		}
 		.productCustomizeParent{
 			width: 95%;
+			padding-bottom: 2.5px;
 		}
 		.productCustomizeChildImage{
 			width: 100%;
