@@ -701,32 +701,32 @@
 		.productCustomizeChildGridProduct1{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct2{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct3{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct4{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct5{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct6{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: max(50vh) minmax(auto, auto); 
 		}
 		.productCustomizeDescriptionTextHeader{
 		padding-left: 15px;
@@ -795,32 +795,32 @@
 		.productCustomizeChildGridProduct1{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct2{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct3{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct4{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct5{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct6{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: max(50vh) minmax(auto, auto); 
 		}
 		.productCustomizeDescriptionTextHeader{
 		padding-left: 15px;
@@ -895,32 +895,32 @@
 		.productCustomizeChildGridProduct1{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct2{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct3{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct4{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct5{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: 50vh minmax(auto, auto); 
 		}
 		.productCustomizeChildGridProduct6{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: max(50vh) minmax(1fr, 1.5fr); 
+		grid-template-rows: max(50vh) minmax(auto, auto); 
 		}
 		.productCustomizeDescriptionTextHeader{
 		padding-left: 15px;
