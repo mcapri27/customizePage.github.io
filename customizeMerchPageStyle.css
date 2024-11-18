@@ -706,27 +706,27 @@
 		.productCustomizeChildGridProduct2{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 150vh; 
 		}
 		.productCustomizeChildGridProduct3{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 150vh; 
 		}
 		.productCustomizeChildGridProduct4{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 120vh; 
 		}
 		.productCustomizeChildGridProduct5{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 150vh; 
 		}
 		.productCustomizeChildGridProduct6{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 95vh; 
 		}
 		.productCustomizeDescriptionTextHeader{
 		padding-left: 15px;
@@ -800,27 +800,27 @@
 		.productCustomizeChildGridProduct2{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 150vh; 
 		}
 		.productCustomizeChildGridProduct3{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 150vh; 
 		}
 		.productCustomizeChildGridProduct4{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 120vh; 
 		}
 		.productCustomizeChildGridProduct5{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 150vh; 
 		}
 		.productCustomizeChildGridProduct6{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 95vh; 
 		}
 		.productCustomizeDescriptionTextHeader{
 		padding-left: 15px;
@@ -900,27 +900,27 @@
 		.productCustomizeChildGridProduct2{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 150vh; 
 		}
 		.productCustomizeChildGridProduct3{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 150vh; 
 		}
 		.productCustomizeChildGridProduct4{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 120vh; 
 		}
 		.productCustomizeChildGridProduct5{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 150vh; 
 		}
 		.productCustomizeChildGridProduct6{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 50vh 100vh; 
+		grid-template-rows: 50vh 95vh; 
 		}
 		.productCustomizeDescriptionTextHeader{
 		padding-left: 15px;
