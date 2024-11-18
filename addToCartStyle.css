@@ -495,28 +495,46 @@
 	}
 	
 	@media (0 <= width <= 310px){
-		.addToTheCart1, .addToTheCart2, .addToTheCart3, .addToTheCart4, .addToTheCart5, .addToTheCart6{
+		.addToTheCart1, .addToTheCart5, .addToTheCart6{
 			width: 80%;
 			position: relative;
 			margin-top: 2em;
 			margin-bottom: 0.5em;
 		} 
+		.addToTheCart2, .addToTheCart3, .addToTheCart4{
+			width: 80%;
+			position: relative;
+			margin-top: 8em;
+			margin-bottom: 0.5em;
+		}
 	}
 	
 	@media (310px <= width <= 411px){
-		.addToTheCart1, .addToTheCart2, .addToTheCart3, .addToTheCart4, .addToTheCart5, .addToTheCart6{
+		.addToTheCart1, .addToTheCart5, .addToTheCart6{
 			width: 80%;
 			position: relative;
 			margin-top: 2em;
 			margin-bottom: 0.5em;
 		} 
+		.addToTheCart2, .addToTheCart3, .addToTheCart4{
+			width: 80%;
+			position: relative;
+			margin-top: 8em;
+			margin-bottom: 0.5em;
+		}
 	}
 	
 	@media (412px <= width <= 464px){
-		.addToTheCart1, .addToTheCart2, .addToTheCart3, .addToTheCart4, .addToTheCart5, .addToTheCart6{
+		.addToTheCart1, .addToTheCart5, .addToTheCart6{
 			width: 80%;
 			position: relative;
 			margin-top: 2em;
+			margin-bottom: 0.5em;
+		} 
+		.addToTheCart2, .addToTheCart3, .addToTheCart4{
+			width: 80%;
+			position: relative;
+			margin-top: 8em;
 			margin-bottom: 0.5em;
 		}
 	}
